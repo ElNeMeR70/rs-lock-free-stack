@@ -1,0 +1,13 @@
+[package]
+name = "rs-lock-free-stack"
+version = "1.0.0"
+edition = "2021"
+description = "Lock-free Treiber stack with atomic CAS operations"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-lock-free-stack"
+keywords = ["rust", "lock-free", "stack", "atomics", "concurrency"]
+
+[[bin]]
+name = "rs_lock_free_stack"
+path = "main.rs"
